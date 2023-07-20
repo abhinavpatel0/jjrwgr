@@ -9,6 +9,7 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import { LikeButton2 } from '@/components/likebutton'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/master/data/${path}`
 const discussUrl = (path) =>
@@ -156,6 +157,9 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 >
                   &larr; Back to the blog
                 </Link>
+                <div className="flex items-center justify-between">
+                  <LikeButton2 slug={content.slug} />
+                </div>
               </div>
             </footer>
           </div>
