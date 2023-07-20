@@ -39,6 +39,7 @@
     "rehype-slug": "^5.1.0",
     "remark": "^14.0.2",
     "remark-gfm": "^3.0.1",
+  "@prisma/client": "^4.6.1",
     "remark-math": "^5.1.1",
     "tailwindcss": "^3.3.2",
     "unist-util-visit": "^4.1.0"
@@ -46,6 +47,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.0.1",
     "@types/react": "^18.2.14",
+"prisma": "^4.6.1",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "cross-env": "^7.0.3",
@@ -60,6 +62,7 @@
     "js-yaml": "4.1.0",
     "lint-staged": "^13.0.0",
     "prettier": "^2.8.8",
+"zod": "^3.19.1",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "typescript": "^5.1.3"
   },
